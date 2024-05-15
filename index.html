@@ -47,7 +47,7 @@
             flex-direction: column;
             align-items: right;
             width: 50%;
-            margin-left:800px;
+            margin-left:500px;
             padding: 5px;
             background-color: aliceblue;
         }
@@ -97,7 +97,7 @@
                 const l1=document.getElementById("amount").value;
                 const l2=document.getElementById("tip").value;
                 const l3=document.getElementById("num").value;
-                const output = (l1*(1+l2/100))/l3;
+                const output = (l1+l2)/l3;
                 document.getElementById("outputBox").innerHTML="The total bill is "+output;
 
                 },
